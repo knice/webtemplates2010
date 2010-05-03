@@ -1,0 +1,6 @@
+## UCSC Website Templates
+
+- Produced by [Rolling Orange](http://www.rollingorange.com) for UCSC
+- Edited by [Rob Knight](mailto:raknight@ucsc.edu) for UCSC
+
+These templates are for creating UCSC websites in accordance standards and policies decided upon as part of the UCSC Web Presence Project, a coordinated effort by Information Technology Services and University Relations.
