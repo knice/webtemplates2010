@@ -2,6 +2,7 @@
 	http://ucsc.site/templates/css/ucsc.css
 	http://local.ucsc.edu/ucsc_templates/css/ucsc.css
 	http://local.ucsc.site/ucsc_templates/css/ucsc.css
+	http://templates.local/css/ucsc.css
 */
 
 /* @group RESET */
@@ -415,7 +416,7 @@ h1, h2, h3, h4, h5, h6 { margin:0.4em 0; font-weight:normal; line-height:1.4em; 
 
 /*home*/
 	
-#thrdslght {
+.thirds.light {
 	width: 800px;
 	background: #f9f8f2;
 	border-radius:5px;
@@ -430,7 +431,7 @@ h1, h2, h3, h4, h5, h6 { margin:0.4em 0; font-weight:normal; line-height:1.4em; 
 	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.05);
 	-moz-box-shadow:1px 1px 4px rgba(0,0,0,0.05);
 }
-#thrdslght div {
+.thirds.light div {
 	border-left:1px solid #e8e7e2;
 	border-right:#fff solid 1px;
 	float:left;
@@ -440,11 +441,11 @@ h1, h2, h3, h4, h5, h6 { margin:0.4em 0; font-weight:normal; line-height:1.4em; 
 	line-height:16px;
 }
 
-#thrdslght div:last-child { 
+.thirds.light div:last-child { 
 	border-right:0;
 }
 
-#thrdslght div h2 {
+.thirds.light div h2 {
 	color: #8E8C87;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", sans-serif;
 	font-size:16px;
@@ -456,9 +457,9 @@ h1, h2, h3, h4, h5, h6 { margin:0.4em 0; font-weight:normal; line-height:1.4em; 
 	text-transform:uppercase;
 }
 
-#thrdslght div h2 span { color:#585755; }
+.thirds.light div h2 span { color:#585755; }
 
-#thrdslght div h2 a.sbscrb {
+.thirds.light div h2 a.sbscrb {
 	float:right;
 	font-size:9px;
 	background:url(../images/rss_feed.gif) no-repeat right;
@@ -468,7 +469,7 @@ h1, h2, h3, h4, h5, h6 { margin:0.4em 0; font-weight:normal; line-height:1.4em; 
 	line-height:3;
 }
 
-#thrdslght div#fe dt {
+.thirds.light div#fe dt {
 	float:left;
 	clear:left;
 	width:43px;
@@ -479,13 +480,13 @@ h1, h2, h3, h4, h5, h6 { margin:0.4em 0; font-weight:normal; line-height:1.4em; 
 	margin:0 0 10px 0;
 	letter-spacing:1px;
 }
-#thrdslght div#fe dt strong {
+.thirds.light div#fe dt strong {
 	color:#6e6d68;
 	font-size:22px;
 	letter-spacing:-1px;
 	line-height:1;
 }
-#thrdslght div#fe dd {
+.thirds.light div#fe dd {
 	border-left:1px solid #dedcd1;
 	float:left;
 	width:175px;
@@ -508,7 +509,7 @@ span.date {
 	display:block;
 }
 
-#thrdslght div#un li {
+.thirds.light div#un li {
 	clear:both;
 	margin:0; padding:0;
 	font-size:12px;
@@ -516,13 +517,13 @@ span.date {
 .department div#newsevents dd, .college div#newsevents dd {
 	clear:both;
 }
-#thrdslght div#qsg {
+.thirds.light div#qsg {
 	border-right:0 none;
 }
 div#qsg li {
 	margin: 0 0 5px 15px;
 }
-.columns_three {
+.thirds.dark {
 	width: 800px;
 	margin:0 0 30px 0;
 	padding:0;
@@ -530,7 +531,7 @@ div#qsg li {
 	clear:both;
 }
 
-.columns_three div {
+.thirds.dark div {
 	float:left;
 	width:246px;
 	padding:0px;
@@ -539,7 +540,7 @@ div#qsg li {
 	line-height:16px;
 }
 
-.columns_three div.inner {
+.thirds.dark div.inner {
 	width:226px;
 	height:226px;
 	padding:10px;
@@ -552,7 +553,7 @@ div#qsg li {
 	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.05);
 	-moz-box-shadow:1px 1px 4px rgba(0,0,0,0.05);
 }
-.columns_three div h3 {
+.thirds.dark div h3 {
 	font-size:14px;
 	font-weight:normal;
 	margin:0 0 10px 0;
@@ -562,7 +563,7 @@ div#qsg li {
 	color:#8e8c87;
 }
 
-.columns_three div h3 span { font-weight:bold; color:#585755; }
+.thirds.dark div h3 span { font-weight:bold; color:#585755; }
 
 #uncommon img, #alumpro img {
 	padding:5px;
@@ -597,61 +598,61 @@ a.continu {
 	text-transform:uppercase;
 	letter-spacing:.5px;
 }
-.columns_three div#theView, .columns_three div#forstudents {
+.thirds.dark div#theView, .thirds.dark div#forstudents {
 	margin:0 0 0px 0;
 }
-.columns_three div#theView img {
+.thirds.dark div#theView img {
 	float:left;
 	margin:0 5px 5px 0;
 	padding:0;
 }
-.columns_three div#theView div.inner {
+.thirds.dark div#theView div.inner {
 	width:231px;
 	padding:10px 5px 10px 10px;
 }
-.columns_three div#thoughtPro div.inner {
+.thirds.dark div#thoughtPro div.inner {
 	background:#f1b521;
 }
 img.tpimage {
 	padding:20px;
 	background:#f1b521;
 }
-.columns_three #newsevents div.inner, .columns_three #forstudents div.inner {
+.thirds.dark #newsevents div.inner, .thirds.dark #forstudents div.inner {
 	width:206px;
 	height:206px;
 	padding:20px;
 	margin:0;
 }
-.columns_three #newsevents img.fltlft {
+.thirds.dark #newsevents img.fltlft {
 	margin-bottom:20px;
 	background:#ece9d9;
 	border-bottom:solid 1px #c7c6c2;
 }
-.department #thrdslght, .college #thrdslght {
+.department .thirds.light, .college .thirds.light {
 	margin:0 0 30px 0;
 }
-.department #thrdslght div {
+.department .thirds.light div {
 	padding:15px 0;
 	width:264px;
 	text-align:center;
 }
-.college #thrdslght div {
+.college .thirds.light div {
 	padding:15px 0;
 	width:264px;
 	text-align:left;
 }
-.department #thrdslght div img, .college #thrdslght div img {
+.department .thirds.light div img, .college .thirds.light div img {
 	margin:0 auto;
 }
 
 /* @group Pre-footer 4-column */
 
-.columns_four { width:800px; margin:0 0 30px 0; padding:0; clear:both; float:left; }
-.columns_four li { padding-bottom:3px; }
-.columns_four div { float:left; width:20%; padding:0px 5% 0 0; margin:0 0 0px 0; font-size:11px; line-height:16px; }
-.columns_four div h4 { margin:0 0 10px 0; text-transform:uppercase; }
-.columns_four div h4 span { font-style:normal; font-weight:bold; font-size:14px; color:#585755; }
-.columns_four div p { color:#71706e; margin:0 0 15px 0; }
+.columns.clear.four { width:800px; margin:0 0 30px 0; padding:0; clear:both; float:left; }
+.columns.clear.four li { padding-bottom:3px; }
+.columns.clear.four div { float:left; width:20%; padding:0px 5% 0 0; margin:0 0 0px 0; font-size:11px; line-height:16px; }
+.columns.clear.four div h4 { margin:0 0 10px 0; text-transform:uppercase; }
+.columns.clear.four div h4 span { font-style:normal; font-weight:bold; font-size:14px; color:#585755; }
+.columns.clear.four div p { color:#71706e; margin:0 0 15px 0; }
 
 
 
@@ -1092,7 +1093,7 @@ h1#academicsTitle {
 
 /* colleges */
 
-.college .columns_three div.inner {
+.college .thirds.dark div.inner {
 	background:#F9F8F2;
 }
 .college #uncommon {
