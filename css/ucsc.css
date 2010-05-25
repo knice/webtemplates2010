@@ -654,9 +654,6 @@ img.tpimage {
 .columns.clear.four div h4 span { font-style:normal; font-weight:bold; font-size:14px; color:#585755; }
 .columns.clear.four div p { color:#71706e; margin:0 0 15px 0; }
 
-
-
-
 /* @end */
 
 
@@ -923,7 +920,7 @@ h1#academicsTitle {
 
 #subNav ul .current {
 	display:block;
-	background:url(../images/nav_arrow.gif) no-repeat right center ;
+	background:url(../images/nav_arrow.gif) no-repeat right center;
 }
 
 /* @end */
@@ -1100,23 +1097,26 @@ h1#academicsTitle {
 .college #uncommon {
 	margin-right:0;
 }
-.collegesFtr h4 {
+.seeAlso h4 {
 	color: #A7BECA;
 	font-weight:normal;
+	border:1px solid;
+	padding:4px 6px;
 	letter-spacing:.5px;
-	margin:0 15px 15px 15px;
+	margin:0 15px 10px 15px;
 	text-transform:uppercase;
 }
-.collegesFtr h4 em {
+.seeAlso h4 span {
 	color: #5585A2;
 	font-weight:normal;
 	letter-spacing:.5px;
 	text-transform:uppercase;
 	font-style:normal;
 }
-.collegesFtr ul {
+.seeAlso ul {
 	margin-left:25px;
 	font-size:11px;}
+
 /*formpage*/
 .formpage dl#mainNav {
 	margin:20px 0 10px;
