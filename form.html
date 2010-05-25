@@ -25,13 +25,13 @@
     <!--start header-->
     <div id="content">
   
-      <dl id="topNav">
-        <dd class="ucscHome"><a href="myucsc.html">University Home</a></dd>
-        <dd><a href="myucsc.html">My UCSC</a></dd>
-        <dd><a href="myucsc.html">People</a></dd>
-        <dd><a href="myucsc.html">Calendars</a></dd>
-        <dd><a href="myucsc.html">A-Z Index</a></dd>
-      </dl>
+      <ul id="topNav">
+        <li class="ucscHome"><a href="myucsc.html">University Home</a></li>
+        <li><a href="myucsc.html">My UCSC</a></li>
+        <li><a href="myucsc.html">People</a></li>
+        <li><a href="myucsc.html">Calendars</a></li>
+        <li><a href="myucsc.html">A-Z Index</a></li>
+      </ul>
       
       <div id="search">
         <form action="/">
@@ -40,24 +40,25 @@
         </form>
       </div>
       
-      <a href="home" id="logo">UC Santa Cruz home</a>
-      <h1 id="findPeopleHeadline">find people</h1>
-      <dl id="mainNav">
-        <dd class="first"><a href="ucsc">faculty &amp; staff</a></dd>
-        <dd><a href="ucsc">students</a></dd>
-        <dd class="last"><a href="ucsc">alumni</a></dd>
-      </dl>
-      
-      
-      
+			<div id="pageTitle">
+				<a href="home" id="logo">UC Santa Cruz home</a>
+			  <h1>Find People</h1>
+			</div>
+
+      <ul id="mainNav">
+        <li class="first"><a href="ucsc">Faculty &amp; Staff</a></li>
+        <li><a href="ucsc">Students</a></li>
+        <li class="last"><a href="ucsc">Alumni</a></li>
+      </ul>
       
       <div id="largeSearch">
-        <h4>Find faculty & staff by name, title, or department</h4>
+        <h4>Find faculty &amp; Staff by name, title, or department</h4>
         <form action="ucsc">
           <input id="lrgSrch" />
           <input type="image" src="images/search_button_large.gif" id="lsrchBtn"/>
         </form>
       </div>
+
       <!-- search box end-->
       <div id="srchResults">
         <h4>Browse by name (click name to see details)</h4>

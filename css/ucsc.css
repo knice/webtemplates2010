@@ -701,9 +701,19 @@ a#ftrlogo {
 	-webkit-border-radius: 5px;
 	border-radius:5px;
 }
-h1#title {
-	margin: 35px 0 20px 0px;
+
+#pageTitle {
+	float: left;
+	width: 100%;
+	margin:35px 0 18px 0;
+}
+
+#pageTitle h1 {
+	margin:0;
 	float:left;
+	font-size:42px;
+	line-height:42px;
+	padding:0 0 0 10px;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	color: #F1B521;
@@ -718,14 +728,14 @@ h1#academicsTitle {
 	overflow: hidden;
 	display:block;
 }
-.department a#logo, .college a#logo, .formpage a#logo {
+#pageTitle a#logo {
 	background:url(../images/small_logo.gif) no-repeat top left;
 	height:45px;
 	width:144px;
 	text-indent: -9999px;
 	font-size: 1px;
 	line-height: 1px;
-	margin: 35px 10px 0 0;
+	margin: 0;
 	padding: 0 10px 0 0;
 	overflow: hidden;
 	/*position: relative;*/
@@ -735,12 +745,10 @@ h1#academicsTitle {
 #topNav .ucscHome {
 	width:290px;
 }
-.department h1#title, .college h1#title {
-	margin:48px 0 20px;
+#pageTitle h1#title, .college h1#title {
+	font-size:38px;
 }
-.formpage h1#title {
-	margin:48px 0 10px;
-}
+
 /** landing **/
 #titles {
 	margin:20px 0 0 0;
@@ -1118,10 +1126,10 @@ h1#academicsTitle {
 	font-size:11px;}
 
 /*formpage*/
-.formpage dl#mainNav {
+.formpage ul#mainNav {
 	margin:20px 0 10px;
 }
-.formpage dl#mainNav dd {
+.formpage ul#mainNav li {
 	width:33%;
 }
 .formpage #largeSearch {
