@@ -1,0 +1,2 @@
+/* H3s were collapsing in IE8 compatibility mode (IE7)  */
+.landing .thirds h3 { width:790px; }

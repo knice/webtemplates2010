@@ -1042,14 +1042,17 @@ h1#academicsTitle {
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 	border-radius:7px;
-}
+	}
+	
 #mainContent table th, #mainContent table td {
-	border-bottom:1px solid #DEDCD1;
-}
+	border-bottom:1px solid #DEDCD1;	
+	}
+
 #mainContent table th, #mainContent table td.rowHead {
 	color:#5585a2;
 	font-weight:bold;
-}
+	}
+	
 #mainContent div.seeAlso {
 	background:#fff;
 	border-bottom:solid 1px #dad8c8;
@@ -1060,15 +1063,17 @@ h1#academicsTitle {
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 	border-radius:7px;
-}
+	}
+	
 #mainContent div.seeAlso ul {
 	float:left;
 	width:250px;
 	padding:20px;
-}
+	}
+
 .contentNONav #mainContent {
 	margin-right:20px;
-}
+	}
 
 /* @end */
 
@@ -1286,6 +1291,25 @@ h1#academicsTitle {
 
 /* @end */
 
+
+#mainContent .directoryBio img { 
+	float:left;
+	margin-right:20px;
+	}
+
+#mainContent .directoryBio table {
+	width:340px;
+	margin-bottom:0px;
+	}
+	
+.directory #mainContent table td,
+.directory #mainContent table th { 
+	padding-left:10px;
+	text-align:left;
+	width:140px;
+	}
+
+.directory #mainContent table td { width:auto; }
 
 
 /* @group IMAGE REPLACEMENT */
