@@ -894,7 +894,7 @@ h1#academicsTitle {
 	clear:both;
 	display:block;
 	width:800px;
-	margin:-15px 0 30px 0;
+	margin:-10px 0 30px 0;
 	font-size:9px;
 	line-height:16px;
 }
@@ -931,14 +931,26 @@ h1#academicsTitle {
 	margin-bottom:-1px;
 }
 
-#subNav ul li li {
-	padding-left:20px;
+#subNav ul li li a  {
+	text-indent:20px;
 }
 
 #subNav ul .current {
 	display:block;
-	background:url(../images/nav_arrow.gif) no-repeat right center;
+	background:#ece9d8 url(../images/nav_arrow.gif) no-repeat right center;
 }
+
+#subNav li a {
+	display:block;
+	width:100%;
+	text-indent:4px;
+	}
+
+#subNav li a:focus,
+#subNav li a:hover {
+	background-color:#ece9d8; 
+	}
+
 
 /* @end */
 
@@ -970,7 +982,7 @@ h1#academicsTitle {
 	font-size:11px;
 	line-height:16px;
 }
-#mainContent div {
+#mainContent .contentBox {
 	background:#ece9d8;
 	border-bottom:solid 1px #dad8c8;
 	padding:30px;
@@ -1014,7 +1026,7 @@ h1#academicsTitle {
 #mainContent p {
 	font-size:12px;
 	line-height:19px;
-	margin-bottom:10px;
+	margin:0 0 10px 0;
 }
 #mainContent span.fltlft {
 	float:left;
@@ -1342,14 +1354,14 @@ h4.ir {
 #content #mainContent h5,
 #content #mainContent h6 { 
 	line-height:1.3em;
-	margin-bottom:0.6em;
+	margin:0 0 0.6em 0;
 }
 
 #content #mainContent p,
 #content #mainContent ul,
 #content #mainContent ol,
 #content #mainContent dl { 
-	margin:1em 0;
+	margin:0 0 1em 0;
 }
 
 #content #mainContent li,
