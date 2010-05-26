@@ -765,7 +765,7 @@ h1#academicsTitle {
 .landing span#description {
 	color: #DAD5B7;
 }
-#fthslht {
+.columns.five {
 	width: 800px;
 	background: #f9f8f2;
 	border-bottom:solid 1px #dfded2;
@@ -777,7 +777,7 @@ h1#academicsTitle {
 	-webkit-border-radius: 5px;
 	border-radius:5px;
 }
-.landing #fthslht div {
+.landing .columns.five div {
 	border-left:#f0efea solid 1px;
 	border-right:#fff solid 1px;
 	float:left;
@@ -786,29 +786,30 @@ h1#academicsTitle {
 	font-size:13px;
 	line-height:16px;
 }
-.landing #fthslht div.lft {
+.landing .columns.five div.lft {
 	border-left:0 none;
 }
-.landing #fthslht div.rht {
+.landing .columns.five div.rht {
 	border-right:0 none;
 }
-#fthslht div h2 {
+.columns.five div h2 {
 	font-size:15px;
 	line-height:17px;
 	margin-bottom:10px;
 	padding-right:20px;
 	letter-spacing:-.5px;
 }
-.landing #fthslht div img {
+.landing .columns.five div img {
 	background:#ECE9D8;
 	padding:5px;
 	margin:0 0 10px 0;
 }
-.landing #fthslht div p {
+.landing .columns.five div p {
 	padding-right:20px;
 	font-size:11px;
 }
-#acNews dd, #seeAlso dd {
+#landingNews li {
+	background-image:none;
 	width:234px;
 	float:left;
 	border-left:#f0efea solid 1px;
@@ -816,11 +817,12 @@ h1#academicsTitle {
 	padding:15px;
 	font-size:13px;
 	line-height:16px;
+	list-style:none;
 }
-#acNews dd span.date {
+#landingNews li span.date {
 	margin-bottom:5px;
 }
-#acNews dd img.fltlft {
+#landingNews li img.fltlft {
 	background:#ECE9D8;
 }
 .landing .thirds {
@@ -828,7 +830,7 @@ h1#academicsTitle {
 	margin:0px 0 30px 0;
 	float:left;
 }
-.landing .thirds #acNews {
+.landing .thirds #landingNews {
 	width: 800px;
 	background: #f9f8f2;
 	border-bottom:solid 1px #dfded2;
@@ -841,15 +843,16 @@ h1#academicsTitle {
 }
 .landing .thirds h3 {
 	color: #8E8C87;
+	display:block;
 	font-weight:normal;
 	letter-spacing:.5px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
+	width:100%;
 }
 .landing .thirds h3 span {
 	font-style:normal;
 	color: #585755;
-	text-transform:uppercase;
 }
 .landing .thirds #seeAlso {
 	width: 800px;
@@ -877,7 +880,7 @@ h1#academicsTitle {
 	border-left:0 none;
 }
 .rht, #seeAlso ul.rht {
-	border-right:0 none;
+	border-right:0 none !important;
 }
 /*content with nav */
 
