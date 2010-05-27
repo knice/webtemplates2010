@@ -1362,60 +1362,63 @@ h4.ir {
 #content #mainContent ol,
 #content #mainContent dl { 
 	margin:0 0 1em 0;
-}
+	}
 
 #content #mainContent li,
 #content #mainContent dt,
 #content #mainContent dd { 
 	margin:0.4em 0;
-	
-}
+	}
 
 #content #mainContent form li { 
 	background:none;
 	margin:0.2em 0;
 	padding:0;
 	list-style-type:none;	
-}
+	}
 
 #content #mainContent blockquote p { 
 	font-size:18px;
-}
+	}
 
 #content #mainContent dl { 
 	float:left;
 	width:100%;
-}
+	}
 
 #content #mainContent dl:after { 
 	content:".";
 	clear:both;
 	visibility:hidden;
-}
+	}
 
 #content #mainContent dt { 
 	font-weight:bold;
 	width:36%;
-
 	float:left;
-}
+	}
 
 #content #mainContent dd { 
 	width:62%;
 	float:right;
 	clear:right;
-}
+	}
 
-#content #mainContent .mainImage { 
+#content #mainContent .mainImage {
+	background-color:#f9f8f2;
 	float:right;
 	margin:0 0 1.2em 1.2em;
 	width:300px;
-}
+	}
 
 #content #mainContent .mainImage img { 
 	display:block;
 	margin:8px;
-}
+	}
+
+#content #mainContent .mainImage .caption { 
+	margin:10px;
+	}
 
 
 /* @end */
