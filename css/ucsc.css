@@ -349,7 +349,6 @@ h1, h2, h3, h4, h5, h6 { margin:0.4em 0; font-weight:normal; line-height:1.4em; 
 
 #mainNav li.qsg a img { padding-left:2px; }
 
-.college #mainNav li,
 .department #mainNav li { 
 	width:131px;
 	}
@@ -580,8 +579,7 @@ span.date {
 
 .thirds.dark div h3 span { font-weight:bold; color:#585755; }
 
-#profile img, 
-#alumpro img {
+#profile img {
 	padding:5px;
 	background:#f6f4ec;
 	}
@@ -599,7 +597,7 @@ span.date {
 	border-bottom:solid 1px #c7c6c2;
 	}
 	
-#uncommon p, #alumpro p, #vidspotlight p {
+#profile p, #vidspotlight p {
 	margin:0 20px 10px 10px;
 	color:#71706e;
 	}
@@ -770,7 +768,7 @@ h1#academicsTitle {
 	display:block;
 }
 #pageTitle a#logo {
-	background:url(../images/small_logo.gif) no-repeat top left;
+	background:url(../images/ucsc_logo_small.gif) no-repeat top left;
 	height:45px;
 	width:144px;
 	text-indent: -9999px;
@@ -1160,12 +1158,10 @@ h1#academicsTitle {
 
 /* colleges */
 
-.college .thirds.dark div.inner {
+.thirds.dark .inner {
 	background:#F9F8F2;
 }
-.college #uncommon {
-	margin-right:0;
-}
+
 .seeAlso h4 {
 	color: #A7BECA;
 	font-weight:normal;
@@ -1175,6 +1171,7 @@ h1#academicsTitle {
 	margin:0 15px 10px 15px;
 	text-transform:uppercase;
 }
+
 .seeAlso h4 span {
 	color: #5585A2;
 	font-weight:normal;
@@ -1182,6 +1179,7 @@ h1#academicsTitle {
 	text-transform:uppercase;
 	font-style:normal;
 }
+
 .seeAlso ul {
 	margin-left:25px;
 	font-size:11px;}

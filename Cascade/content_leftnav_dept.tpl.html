@@ -6,11 +6,9 @@
 	<system-region name="LOCAL HTML HEAD"/>
 </head>
 
-<body class="college">
+<body class="contentLeftNav">
 <div id="wrap">
   <div id="container">
-    
-    <!--start header-->
     <div id="content">
       
       <system-region name="UNIFORM CAMPUS LINKS"/>
@@ -21,37 +19,35 @@
       
 			<div id="pageTitle">
 				<system-region name="UNIFORM CAMPUS LOGO"/>
-				<system-region name="COLLEGE NAME"/>
+				<system-region name="DEPARTMENT NAME"/>
 			</div>
       
-      <system-region name="MAIN NAV"/>
+			<system-region name="MAIN NAV"/>
       
-      <div id="banner">
-				<system-region name="BANNER IMAGE"/>
-			</div>
+      <div id="breadcrumbs">
+        <system-region name="BREADCRUMBS"/>
+      </div>
 
-      <div class="thirds dark">
-				<system-region name="MIDDLE COLUMN LEFT"/>
-				<system-region name="MIDDLE COLUMN CENTER"/>
-        <system-region name="MIDDLE COLUMN RIGHT"/>
-      </div>
-      
-      <div class="thirds light seeAlso">
-				<system-region name="BOTTOM LEFT"/>
-				<system-region name="BOTTOM CENTER"/>
-				<system-region name="BOTTOM RIGHT"/>								
-      </div>
-      
+      <div id="sprflt">
+        <div id="subNav">
+					<system-region name="LEFT NAV"/>
+        </div>
+        
+        <div id="mainContent">
+          <system-region name="DEFAULT"/>
+          <system-region name="CONTENT BOTTOM"/>
+      	</div>
+
       <div id="footer">
-        <system-region name="FOOTER LINKS"/>
+				<system-region name="FOOTER LINKS"/>
 				<system-region name="UNIFORM CAMPUS FOOTER"/>
       </div>
 
     </div><!-- /content -->
-    
+
     <div class="sleed"><a class="handle" href="#">Content</a></div>
     <system-region name="BACKGROUND"/>
-    
+
   </div><!-- /container -->
 </div><!-- /wrap -->
 </body>
